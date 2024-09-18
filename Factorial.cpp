@@ -9,6 +9,8 @@ int main(){
     cout << "Please type out a positive number" << endl;
     cin >> number;
 
+    factorial = number;
+    
     for(int i = number - 1; i > 0; i--){
         factorial = factorial * i;
     }
